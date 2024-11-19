@@ -1,0 +1,211 @@
+/* ! GLOBAL STYLE */
+body {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-header h2::after {
+    content: "C";
+    position: absolute;
+    color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 80px;
+    top: 30%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+/* ! NAV STYLE */
+#navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-list {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* ! HOME STYLE */
+.layer {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header .carousel-control-next {
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    top: 35%;
+    left: 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+
+header .carousel-control-prev {
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    top: calc(35% - 50px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    transition: all 0.5s;
+}
+
+header .carousel-control-next:hover,
+header .carousel-control-prev:hover {
+    background-color: white;
+}
+
+header .carousel-control-next i,
+header .carousel-control-prev i {
+    transition: all 0.5s;
+}
+
+header .carousel-control-next:hover i,
+header .carousel-control-prev:hover i {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+header .carousel-inner img {
+    background-position: center;
+    background-size: cover;
+}
+
+header .carousel-item img {
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1350px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+/* ! ABOUT STYLE */
+
+#about {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* ! TEAM STYLE */
+
+.team-caption a i {
+    transition: color 0.5s;
+}
+
+.team-caption a:hover i {
+    color: #09c;
+}
+
+.team-caption {
+    opacity: 0;
+    transition: diaplay 1s;
+    transition: opacity 0.7s;
+    background-color: rgba(24, 200, 221, 0.8);
+}
+
+.team:hover .team-caption {
+    opacity: 1;
+}
+
+/* ! SERVICES STYLE */
+#services {
+    background-color: #626262;
+}
+
+#services h4 {
+    font-size: 13px;
+}
+
+.section-services-header h2::after {
+    content: "W";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    font-size: 80px;
+    top: 23%;
+    left: 10%;
+    translate: -50% -50%;
+}
+
+#services ul li i {
+    padding: 1px;
+}
+
+/* ! WORKS STYLE */
+#works,
+#pricing {
+    background-color: #F7F7F7;
+}
+
+#works .item h5 {
+    border-bottom: 1px solid rgb(233, 230, 230);
+}
+
+.item-special span.best-value-span {
+    font-size: 12px;
+    background-color: #00C3DA;
+    left: 60%;
+
+}
+
+@media screen and (min-width: 1200px) {
+    #works .item-special {
+        scale: 1.1;
+        margin-inline: 20px;
+        color: #00C3DA;
+    }
+}
+
+/* ! PRICING STYLE */
+
+.pricing-content img {
+    width: 5rem;
+    height: 5rem;
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+#pricing .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+/* ! CONTACT STYLE */
+
+.section-contact-header h2::after {
+    content: "G";
+    position: absolute;
+    color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 70px;
+    top: 23%;
+    left: 4%;
+    translate: -50% -50%;
+}
+
+.text-area {
+    resize: none;
+    width: 100%;
+    height: 100px;
+}

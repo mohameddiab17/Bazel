@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazel</title>
+    <link rel="shortcut icon" href="./images/logo-light.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-nav fixed-top shadow" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo-dark.png" class="w-50" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px1">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#working">Working</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#procong">Procong</a>
+                    </li>
+                    <li class="nav-item contact-list">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.x.com" target="_blank">
+                            <i class="fa-brands fa-x"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators" id="home">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/bg-image-29.jpg" class="d-block w-100 vh-100" alt="star background">
+                <div
+                    class="layer text-white d-flex flex-column align-items-center justify-content-center position-absolute top-0 bottom-0 start-0 end-0">
+                    <h1 class="fw-bolder">Create With Bazel.</h1>
+                    <p class="fw-light fs-4">We are innovate company making digital stuff</p>
+                    <div class="home-buttons">
+                        <button class="btn btn-info px-3 py-2 me-2 text-white">Hire Us</button>
+                        <button class="btn btn-outline-light px-3 py-2">Services</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg-image-28.jpg" class="d-block w-100 vh-100" alt="bridge background">
+                <div
+                    class="layer text-white d-flex flex-column align-items-center justify-content-center position-absolute top-0 bottom-0 start-0 end-0">
+                    <h1 class="fw-bolder">Get Awesome.</h1>
+                    <p class="fw-light fs-4">We are innovate company making digital stuff</p>
+                    <div class="home-buttons">
+                        <button class="btn btn-info px-3 py-2 me-2 text-white">Read More</button>
+                        <button class="btn btn-outline-light px-3 py-2">Contact</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <i class="fa-solid fa-arrow-right"></i>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center text-center p-3">
+                <h6 class="fw-bold text-uppercase mb-4">Who We Are</h6>
+                <p class="w-50 mx-auto text-muted fs-5 mb-4">We are an innovative company. We develop and design
+                    softwares for
+                    costumers around the world. Our clients are some of the most forward-looking companies in the world.
+                </p>
+                <button class="btn btn-outline-dark px-3 py-2">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-5">
+        <div class="container">
+            <div class="section-header text-center pt-4">
+                <h2 class="position-relative fs-1 fw-bold">Creative Team</h2>
+                <p class="fw-bold text-muted fs-5">We are digital thinkers</p>
+            </div>
+            <div>
+                <div class="row gx-3 py-5">
+                    <div class="team col-lg-3 col-md-6 mb-md-3 mb-sm-3 position-relative">
+                        <img src="./images/team-1.jpg" class="w-100" alt="team number one">
+                        <div
+                            class="team-caption text-white py-3 px-2 position-absolute top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-start justify-content-between">
+                            <div class="team-caption-icons d-flex align-items-center justify-content-start">
+                                <a class="px-2 text-white" href="https://www.facebook.com">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.instagram.com">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.x.com">
+                                    <i class="fa-brands fa-x"></i>
+                                </a>
+                            </div>
+                            <div class="team-caption-desc">
+                                <h4 class="mb-1 h6 fw-light">Luke Cage</h4>
+                                <p class="h6 fw-light">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team col-lg-3 col-md-6 mb-md-3 mb-sm-3 position-relative">
+                        <img src="./images/team-2.jpg" class="w-100" alt="team number one">
+                        <div
+                            class="team-caption text-white py-3 px-2 position-absolute top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-start justify-content-between">
+                            <div class="team-caption-icons d-flex align-items-center justify-content-start">
+                                <a class="px-2 text-white" href="https://www.facebook.com">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.instagram.com">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.x.com">
+                                    <i class="fa-brands fa-x"></i>
+                                </a>
+                            </div>
+                            <div class="team-caption-desc">
+                                <h4 class="mb-1 h6 fw-light">Luke Cage</h4>
+                                <p class="h6 fw-light">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team col-lg-3 col-md-6 mb-md-3 mb-sm-3 position-relative">
+                        <img src="./images/team-3.jpg" class="w-100" alt="team number one">
+                        <div
+                            class="team-caption text-white py-3 px-2 position-absolute top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-start justify-content-between">
+                            <div class="team-caption-icons d-flex align-items-center justify-content-start">
+                                <a class="px-2 text-white" href="https://www.facebook.com">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.instagram.com">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.x.com">
+                                    <i class="fa-brands fa-x"></i>
+                                </a>
+                            </div>
+                            <div class="team-caption-desc">
+                                <h4 class="mb-1 h6 fw-light">Luke Cage</h4>
+                                <p class="h6 fw-light">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team col-lg-3 col-md-6 mb-md-3 mb-sm-3 position-relative">
+                        <img src="./images/team-4.jpg" class="w-100" alt="team number one">
+                        <div
+                            class="team-caption text-white py-3 px-2 position-absolute top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-start justify-content-between">
+                            <div class="team-caption-icons d-flex align-items-center justify-content-start">
+                                <a class="px-2 text-white" href="https://www.facebook.com">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.instagram.com">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a class="px-2 text-white" href="https://www.x.com">
+                                    <i class="fa-brands fa-x"></i>
+                                </a>
+                            </div>
+                            <div class="team-caption-desc">
+                                <h4 class="mb-1 h6 fw-light">Luke Cage</h4>
+                                <p class="h6 fw-light">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services py-5 text-white">
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-sm-2">
+                    <h4 class="text-uppercase">Stunning Design</h4>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-sm-2">
+                    <h4 class="text-uppercase">Time Saver</h4>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-sm-2">
+                    <h4 class="text-uppercase">Clean Code</h4>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-sm-2">
+                    <h4 class="text-uppercase">Customizable</h4>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-sm-2">
+                    <h4 class="text-uppercase">Perfect Layout</h4>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-md-3 mb-sm-2">
+                    <h4 class="text-uppercase">Retina Ready</h4>
+                </div>
+            </div>
+            <div class="row pb-5 pt-3">
+                <div class="col-lg-4 col-md-12 pt-3">
+                    <div class="section-services-header text-white pt-4">
+                        <h2 class="position-relative fs-1 fw-bold mb-3">What We Do.</h2>
+                        <p class="fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Unde, ab quos. Animi maiores, a possimus quibusdam saepe cumque officia earum repudiandae
+                            culpa at reiciendis quo et deleniti eius modi rem.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 offset-lg-2 pt-5">
+                    <ul class="p-0 list-unstyled d-flex flex-column align-items-between justify-content-between">
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Research</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Opportunity Analysis</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Consulting</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Brand Planning</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Customer Support</span>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 pt-5">
+                    <ul class="p-0 list-unstyled d-flex flex-column align-items-between justify-content-between">
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Logo & Branding</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Style guides</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Motion graphics</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>UX/UI-design</span>
+                        </li>
+                        <li class="mb-3">
+                            <i
+                                class="fa-solid fa-check me-2 bg-transparent rounded-circle border border-1 border-light"></i>
+                            <span>Social media design</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works py-5">
+        <div class="container">
+            <div class="section-header text-center py-4">
+                <h2 class="position-relative fs-1 fw-bold">Cheap Prices</h2>
+                <p class="fw-bold text-muted fs-5">We provide the best quality.</p>
+            </div>
+            <div class="row g-3 py-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="item bg-white p-4 rounded-2">
+                        <h4 class="h6 fw-light pb-2">Starter</h4>
+                        <h5 class="fs-1 pb-3 fw-bold">
+                            <sup>$</sup>
+                            9
+                        </h5>
+                        <ul class="list-unstyled p-0">
+                            <li class="text-muted py-2">
+                                <span>Unlimited Connections</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>24/7 Support</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Full SSL Protection</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Unlimited Channels</span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-primary my-2">Sign Up</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="item bg-white p-4 rounded-2">
+                        <h4 class="h6 fw-light pb-2">Silver</h4>
+                        <h5 class="fs-1 pb-3 fw-bold">
+                            <sup>$</sup>
+                            19
+                        </h5>
+                        <ul class="list-unstyled p-0">
+                            <li class="text-muted py-2">
+                                <span>Unlimited Connections</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>24/7 Support</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Full SSL Protection</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Unlimited Channels</span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-primary my-2">Sign Up</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="item item-special bg-white p-4 rounded-2 position-relative">
+                        <span
+                            class="best-value-span text-uppercase rounded-pill py-1 px-2 position-absolute text-white">best
+                            value</span>
+                        <h4 class="h6 fw-light pb-2">Gold</h4>
+                        <h5 class="fs-1 pb-3 fw-bold">
+                            <sup>$</sup>
+                            29
+                        </h5>
+                        <ul class="list-unstyled p-0">
+                            <li class="text-muted py-2">
+                                <span>Unlimited Connections</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>24/7 Support</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Full SSL Protection</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Unlimited Channels</span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-primary my-2">Sign Up</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="item bg-white p-4 rounded-2">
+                        <h4 class="h6 fw-light pb-2">Platinum</h4>
+                        <h5 class="fs-1 pb-3 fw-bold">
+                            <sup>$</sup>
+                            49
+                        </h5>
+                        <ul class="list-unstyled p-0">
+                            <li class="text-muted py-2">
+                                <span>Unlimited Connections</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>24/7 Support</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Full SSL Protection</span>
+                            </li>
+                            <li class="text-muted py-2">
+                                <span>Unlimited Channels</span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-primary my-2">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing py-5 text-center">
+        <p class="text-uppercase">Happy Customers</p>
+        <div id="carouselExampleIndicators" class="carousel slide">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active py-5">
+                    <div class="pricing-content rounded-4 w-50 mx-auto bg-white position-relative py-5">
+                        <img class="rounded-circle position-absolute" src="./images/testimonial-2.jpg"
+                            alt="testimonial-1">
+                        <h2 class="fw-bold h3 pb-2 pt-4">Mark Zekurbirg</h2>
+                        <p class="text-muted fw-bold">Ceo & Founder of Facebook</p>
+                        <p class="fw-light fs-5 w-50 mx-auto text-muted pb-4">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Nulla eligendi voluptates numquam
+                            at? Veritatis aut natus eligendi id reprehenderit nisi.</p>
+                    </div>
+                </div>
+                <div class="carousel-item py-5">
+                    <div class="pricing-content rounded-4 w-50 mx-auto bg-white position-relative py-5">
+                        <img class="rounded-circle position-absolute" src="./images/testimonial-1.jpg"
+                            alt="testimonial-1">
+                        <h2 class="fw-bold h3 pb-2 pt-4">Marissa Mayer</h2>
+                        <p class="text-muted fw-bold">Ceo Yahoo</p>
+                        <p class="fw-light fs-5 w-50 mx-auto text-muted pb-4">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Nulla eligendi voluptates numquam
+                            at? Veritatis aut natus eligendi id reprehenderit nisi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators position-static overflow-hidden">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <i class="fa-solid fa-arrow-left text-black fs-4"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <i class="fa-solid fa-arrow-right text-black fs-4"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contauner-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-5 offset-md-1 py-5">
+                    <div class="section-contact-header py-4">
+                        <h2 class="position-relative fs-1 fw-bold">Get In Touch</h2>
+                        <p class="fw-bold text-muted">Let's Work Together</p>
+                    </div>
+                    <form class="w-75 ms-0">
+                        <label class="pb-1" for="name">Your Name</label>
+                        <input class="form-control mb-4" type="text" id="name">
+                        <label class="pb-1" for="email">Your Email</label>
+                        <input class="form-control mb-4" type="email" id="email">
+                        <label class="pb-1" for="number">Phone Number</label>
+                        <input class="form-control mb-4" type="tel" id="number">
+                        <label class="pb-1" for="msg">Your Message</label>
+                        <textarea class="text-area mb-4" name="msg" id="msg"></textarea>
+                        <button class="btn btn-info py-2 px-4 text-white">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
